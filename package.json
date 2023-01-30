@@ -10,6 +10,7 @@
     "animate.css": "^4.1.1",
     "antd": "^4.23.1",
     "axios": "^0.27.2",
+    "build": "^0.1.4",
     "formik": "^2.2.9",
     "i18next": "^21.9.2",
     "i18next-browser-languagedetector": "^6.1.5",
