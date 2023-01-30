@@ -1,0 +1,35 @@
+#tabsmovies{
+    display: block;
+}
+
+
+@media (max-width: 767px){
+    .res_mul{
+        display: block;
+    }
+    .container{
+        max-width: 1023px;
+    }
+    .shadow-2xl{
+        box-shadow: none;
+    }
+    .px-5{
+        padding-left: 0px !important;
+    }
+    #tabsmovies{
+        display: none;
+    }
+}
+
+
+@media screen 
+and (min-width : 768px) 
+and (max-width : 1024px) {
+    #tabsmovies{
+        display: none;
+    }
+    .py-12{
+        padding-top: 0;
+        
+    }
+}

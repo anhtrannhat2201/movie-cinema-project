@@ -1,0 +1,174 @@
+.pacss-wrapper {
+  font-size: 300%;
+  width: 1em;
+  height: 1em;
+  border-radius: 1em;
+  background: #E6E7E8;
+  margin: 0;
+  padding: 0;
+  float: left;
+  margin: 0.3em;
+  position: relative;
+  box-sizing: border-box;
+}
+.pacss-wrapper:after {
+  width: 1.3em;
+  height: 1.3em;
+  background: none;
+  display: block;
+  position: absolute;
+  border-radius: 1em;
+  top: -0.15em;
+  left: -0.15em;
+  outline: 0;
+  content: "";
+  z-index: 6;
+  box-sizing: inherit;
+  overflow: hidden;
+}
+
+.pacss-foreground {
+  position: absolute;
+  margin: 0.15em;
+  width: 0.7em;
+  height: 0.7em;
+  background: #fff;
+  border-radius: 1em;
+  z-index: 2;
+  box-sizing: border-box;
+  display: block;
+}
+.pacss-foreground .pacss-number {
+  font-size: 0.25em;
+  font-weight: bold;
+  font-family: arial;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 2em;
+  display: block;
+  height: 100%;
+}
+
+/* 1em */
+.pacss {
+  display: block;
+  position: relative;
+  width: 0.5em;
+  height: 1em;
+  overflow: hidden;
+  transform-origin: left center;
+  margin-left: 0.5em;
+}
+
+.pacss.pacss-big:after, .pacss:before {
+  content: " ";
+  position: absolute;
+  width: 0.5em;
+  height: 1em;
+  background: #23BDF0;
+}
+
+.pacss:before {
+  left: -100%;
+  border-radius: 0.5em 0 0 0.5em;
+  transform-origin: right center;
+}
+
+.pacss.pacss-big {
+  width: 1em;
+  transform-origin: center center;
+  margin-left: 0;
+}
+
+.pacss.pacss-big:before {
+  left: 0;
+}
+
+.pacss.pacss-big:after {
+  left: 50%;
+  border-radius: 0 0.5em 0.5em 0;
+}
+
+.pacss:before {
+  transform: rotate(36deg);
+}
+
+.pacss-5:before {
+  transform: rotate(18deg);
+}
+
+.pacss-10:before {
+  transform: rotate(36deg);
+}
+
+.pacss-15:before {
+  transform: rotate(54deg);
+}
+
+.pacss-20:before {
+  transform: rotate(72deg);
+}
+
+.pacss-25:before {
+  transform: rotate(90deg);
+}
+
+.pacss-30:before {
+  transform: rotate(108deg);
+}
+
+.pacss-35:before {
+  transform: rotate(126deg);
+}
+
+.pacss-40:before {
+  transform: rotate(144deg);
+}
+
+.pacss-45:before {
+  transform: rotate(162deg);
+}
+
+.pacss-50:before {
+  transform: rotate(180deg);
+}
+
+.pacss-55:before {
+  transform: rotate(198deg);
+}
+
+.pacss-60:before {
+  transform: rotate(216deg);
+}
+
+.pacss-65:before {
+  transform: rotate(234deg);
+}
+
+.pacss-70:before {
+  transform: rotate(252deg);
+}
+
+.pacss-75:before {
+  transform: rotate(270deg);
+}
+
+.pacss-80:before {
+  transform: rotate(288deg);
+}
+
+.pacss-85:before {
+  transform: rotate(306deg);
+}
+
+.pacss-90:before {
+  transform: rotate(324deg);
+}
+
+.pacss-95:before {
+  transform: rotate(342deg);
+}
+
+.pacss-100:before {
+  transform: rotate(360deg);
+}/*# sourceMappingURL=circleRatting.css.map */

@@ -1,0 +1,40 @@
+.slick-dots-bottom{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.slick-dots li.slick-active button:before {
+    display: none;
+}
+
+.slick-dots li.slick-active{
+    display: none;
+}
+
+.slick-dots li.slick-active:hover{
+    display: none;
+}
+
+.img_carousel{
+    display: block;
+}
+
+@media (max-width: 767px) {
+    .carousel{
+        display: none;
+    }
+}
+
+@media screen 
+and (min-width : 768px) 
+and (max-width : 1024px) {
+    .carousel{
+        display: block;
+    }
+    .h3_carousel{
+       height: 340px !important;
+    }
+    .img_carousel{
+        height: 340px;
+    }
+}

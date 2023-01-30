@@ -1,0 +1,123 @@
+.screen {
+  border-bottom: 50px solid rgb(255, 159, 95);
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  height: 100;
+  width: 80%;
+  filter: drop-shadow(4px 30px 20px rgba(255, 255, 255, 0.5));
+  font-size: 25px;
+  color: #000;
+  font-weight: bold;
+  margin-left: 100px;
+}
+
+.bookingMovie {
+  width: 100%;
+  height: 100%;
+  /* fixel full 100%  */
+  position: fixed;
+  background-size: 100%;
+}
+
+.gheChuaDat {
+  background-color: rgb(156, 167, 156);
+  cursor: pointer;
+}
+
+.ghe {
+  border: 3px solid rgb(165, 96, 12);
+  width: 35px;
+  height: 35px;
+  font-size: 12px;
+  margin: 10px;
+  border-radius: 5px;
+  color: #000;
+  font-weight: bold;
+  background-color: #e9e9e9;
+}
+.gheCss {
+  border: 3px solid rgb(165, 96, 12);
+  width: 35px;
+  height: 35px;
+  font-size: 12px;
+  margin: 10px;
+  border-radius: 5px;
+  color: #000;
+  font-weight: bold;
+  background-color: #e9e9e9;
+}
+
+.ghe:hover {
+  background-color: rgb(109, 238, 109);
+}
+
+.gheDaDuocChon {
+  background: rgb(246, 246, 246);
+  -webkit-box-shadow: -1px 2px 18px -6px #000000;
+  box-shadow: -1px 2px 18px -6px #000000;
+}
+.rowNumber {
+  /* font-size: 25px; */
+  width: 45px;
+  height: 35px;
+  background: none;
+  border: none;
+  margin-left: 2%;
+  margin-bottom: 1%;
+  font-size: 30px;
+  color: yellow;
+}
+
+.firstChar {
+  color: yellow;
+  font-size: 35px;
+  margin-right: 15px;
+}
+
+.gheDuocChon {
+  background: rgb(107, 104, 104);
+  cursor: no-drop !important;
+  color: #000;
+  font-weight: bold;
+}
+
+.gheDangChon {
+  background: rgb(109, 238, 109) !important;
+  cursor: pointer;
+}
+
+.gheVip {
+  background: rgb(227, 134, 19);
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#components-layout-demo-custom-trigger .trigger {
+  padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+  color: #1890ff;
+}
+
+#components-layout-demo-custom-trigger .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* .site-layout .site-layout-background {
+  background: #000;
+  font-weight: bold;
+} */
+
+@media (min-width: 1220px) {
+  .modal_checkout {
+    top: -80px;
+  }
+}

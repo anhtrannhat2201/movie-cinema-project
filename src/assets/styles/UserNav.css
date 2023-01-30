@@ -1,0 +1,25 @@
+@media (max-width: 767px) {
+    .signout{
+        padding: 0;
+    }
+    .signout:hover{
+        color: blueviolet;       
+    }
+    .language{
+        display: none;
+    }
+}
+
+@media screen 
+and (min-width : 768px) 
+and (max-width : 1024px) {
+    .signout{
+        padding: 0;
+    }
+    .signout:hover{
+        color: blueviolet;       
+    }
+    .language{
+        display: none;
+    }
+}
