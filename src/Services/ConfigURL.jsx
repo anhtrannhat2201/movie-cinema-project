@@ -5,7 +5,7 @@ import { localServ } from "./LocalService";
 
 export const BASE_URL = "https://movienew.cybersoft.edu.vn";
 export const TOKEN_CYBERSOFT =
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5Mb3AiOiJCb290Y2FtcCBTw6FuZyAwNCIsIkhldEhhblN0cmluZyI6IjI0LzAyLzIwMjMiLCJIZXRIYW5UaW1lIjoiMTY3NzE5NjgwMDAwMCIsIm5iZiI6MTY1NDEwMjgwMCwiZXhwIjoxNjc3MzQ0NDAwfQ.ZiG46jcfei0W0lpVZceE1nh8LXVGS7Cl3NcyjtuQcQE";
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5Mb3AiOiJCb290Y2FtcCBTw6FuZyAwNCIsIkhldEhhblN0cmluZyI6IjA1LzAzLzIwMjMiLCJIZXRIYW5UaW1lIjoiMTY3Nzk3NDQwMDAwMCIsIm5iZiI6MTY1NDEwMjgwMCwiZXhwIjoxNjc4MTIyMDAwfQ.FunqYipkHrCbBATBzuJXyjGpZZxDekx1oY2qxW3_yfw";
 export const GROUPID = "GP03";
 
 export let https = axios.create({
