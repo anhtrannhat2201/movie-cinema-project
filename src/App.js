@@ -25,7 +25,7 @@ import Addnew from "./Page/Admin/Films/AddNew";
 import EditFilms from "./Page/Admin/Films/EditFilms/EditFilms";
 import AddUser from "./Page/Admin/Users/AddUser";
 import EditUsers from "./Page/Admin/Users/EditUsers/EditUsers";
-import KetQuadatVe from "./Page/Checkout/Checkout";
+
 import LichSuVeUser from "./Page/Checkout/LichSuVeUser";
 function App() {
   return (
